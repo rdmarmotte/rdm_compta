@@ -9,6 +9,31 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return  MaterialApp(
+      home: Scaffold(
+        appBar: AppBar(
+          title: const Text("rdmCompta"),
+        ),
+        body: const Center(
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Text(
+                    "Bienvenue sur l'appli compta",
+                  style: TextStyle(
+                    fontSize: 22
+                  )
+                ),
+                Text(
+                    "Compte tes sous Picsou !",
+                    style: TextStyle(
+                        fontSize: 18
+                    )
+                ),
+              ],
+            )
+        ),
+      )
+    );
   }
 }
