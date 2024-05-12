@@ -9,7 +9,7 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return  MaterialApp(
+    return const MaterialApp(
       home: HomePage()
     );
   }
@@ -40,9 +40,9 @@ class HomePage extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Text(
-                  "Bienvenue sur l'appli compta",
+                  "rdmCompta",
                 style: TextStyle(
-                  fontSize: 22
+                  fontSize: 28
                 )
               ),
               Text(
@@ -50,10 +50,10 @@ class HomePage extends StatelessWidget {
                   style: TextStyle(
                       fontSize: 18
                   )
-              ),
-            ],
+              )
+            ]
           )
-      ),
+      )
     );
   }
 }
